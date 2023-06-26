@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
                 .map { it.trim().toInt() }
                 .toIntArray()
 
-            val minimum = solution.findMin(inputArray)
+            val minimum = solution.minRotated(inputArray)
 
             binding.resultTextView.text = "Result: $minimum"
         }

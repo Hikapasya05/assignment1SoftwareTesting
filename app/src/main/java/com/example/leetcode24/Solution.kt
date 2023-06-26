@@ -1,7 +1,11 @@
 package com.example.leetcode24
 
-class Solution {
-    fun findMin(nums: IntArray): Int {
+class Solution:  MinRotatedSortedArray{
+
+
+    override fun minRotated(nums: IntArray): Int {
+
+
         var left = 0
         var right = nums.size - 1
 
