@@ -6,6 +6,7 @@ import com.example.leetcode24.Solution
 import com.example.leetcode24.databinding.ActivityMainBinding
 
 
+
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private val solution = Solution()

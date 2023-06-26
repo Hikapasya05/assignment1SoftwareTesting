@@ -84,11 +84,9 @@ class MinimumTest {
      * Test case to verify the minimum value in a sorted array.
      */
     @Test
-    fun minimum_sorted_array_value_test1() {
-        val solution = Solution()
-
-        val nums2 = intArrayOf(4, 5, 6, 7, 0, 1, 2)
-        assert(solution.minRotated(nums2) == 0)
+    fun `testMinimumValue_rotatedArrayValue`() {
+        val nums = intArrayOf(4, 5, 6, 7, 0, 1, 2)
+        assertEquals(0, solution.minRotated(nums))
     }
 }
 
