@@ -13,7 +13,7 @@ class MinimumTest {
 
     @Test
     fun testFindMin1() {
-        val solution = Solution()
+        val solution = SolutionTest()
 
         // Test Case 1
         val nums1 = intArrayOf(3, 4, 5, 1, 2)
@@ -26,7 +26,7 @@ class MinimumTest {
 
     @Test
     fun testFindMin2() {
-        val solution = Solution()
+        val solution = SolutionTest()
 
         // Test Case 2
         val nums2 = intArrayOf(4, 5, 6, 7, 0, 1, 2)
@@ -36,7 +36,7 @@ class MinimumTest {
 
     @Test
     fun testFindMin3() {
-        val solution = Solution()
+        val solution = SolutionTest()
 
         // Test Case 3
         val nums3 = intArrayOf(11, 13, 15, 17)
@@ -46,7 +46,7 @@ class MinimumTest {
 
     @Test
     fun testFindMin4() {
-        val solution = Solution()
+        val solution = SolutionTest()
 
         //Test Case 4
         val nums4 = intArrayOf(19, 20 ,21 ,17, 18)
